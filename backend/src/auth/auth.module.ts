@@ -4,7 +4,7 @@ import { AuthController } from './auth.controller';
 import { UserModule } from 'src/user/user.module';
 import { JwtModule } from '@nestjs/jwt';
 import { jwtConstants } from './constants';
-import { IsEmailOrPhone } from 'src/validators/email-phone.validator';
+import { IsEmailOrPhone } from 'src/common/validators/email-phone.validator';
 
 @Module({
   imports:[ JwtModule.register({
