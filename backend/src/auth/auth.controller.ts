@@ -15,11 +15,7 @@ export class AuthController {
       return {
         success:true,
         message:"signup successfully",
-        user:{
-            name:response.name,
-            email:response.email,
-            password:response.password
-        }
+        user:response
       }
     }
 

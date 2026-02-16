@@ -1,5 +1,5 @@
 import { IsEmail, IsNotEmpty, Validate } from "class-validator";
-import { IsEmailOrPhone } from "src/validators/email-phone.validator";
+import { IsEmailOrPhone } from "src/common/validators/email-phone.validator";
 
 
 export class SigninDto{
